@@ -17,6 +17,9 @@
 }
 
 /* shared styles */
+.secondary-bg{
+    background-color: #f5f8ff;
+}
 
 .dark-1 {
   color: #000000;
@@ -49,9 +52,9 @@
   background-image: url("/Assets/Hero-bg.png");
   background-repeat: no-repeat;
   /* width: 1440px; */
-  height: 698px;
+  /* height: 698px; */
   background-size: cover;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 /* nav styles*/
@@ -65,7 +68,8 @@ nav {
 }
 
 nav .logo {
-  font-weight: Black;
+  /* font-weight: Black; */
+  font-weight: bold;
   font-size: 34px;
   color: #4E47FF;
 }
@@ -73,7 +77,52 @@ nav .logo {
 /* banner styles */
 
 .banner {
+  font-weight: bold;
+  font-size: 65px;
   /* align-items: center;
   justify-content: center; */
   text-align: center;
+}
+
+.banner-tagline {
+  margin: 158px 267.5px 37px 267.5px;
+}
+
+.banner-btn {
+  margin-bottom: 152px;
+}
+
+/* action styles */
+
+.action {
+  display: flex;
+  gap: auto;
+  margin: 116px 159px 116px 141px;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.action-content{
+  margin: 62.5px 623px 62.5px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+
+.action-description {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.action-image {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  /* margin-right: 159px; */
 }
