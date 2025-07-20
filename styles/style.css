@@ -17,8 +17,8 @@
 }
 
 /* shared styles */
-.secondary-bg{
-    background-color: #f5f8ff;
+.secondary-bg {
+  background-color: #f5f8ff;
 }
 
 .dark-1 {
@@ -28,12 +28,12 @@
   color: #252432;
 }
 .dark-3 {
-  color: rgba(37, 36, 50, 0.500);
+  color: rgba(37, 36, 50, 0.5);
 }
 
 .btn-primary {
-  background-color: #4E47FF;
-  color: #FFFFFF;
+  background-color: #4e47ff;
+  color: #ffffff;
   padding: 12px 36px;
   font-weight: bold;
   font-size: 16px;
@@ -42,7 +42,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #3A36D8;
+  background-color: #3a36d8;
   cursor: pointer;
 }
 
@@ -61,7 +61,7 @@
 
 nav {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   margin: 0px 150px 158px 150px;
   /* padding: 50px 0px 50px 0px; */
@@ -71,7 +71,7 @@ nav .logo {
   /* font-weight: Black; */
   font-weight: bold;
   font-size: 34px;
-  color: #4E47FF;
+  color: #4e47ff;
 }
 
 /* banner styles */
@@ -99,16 +99,16 @@ nav .logo {
   gap: auto;
   margin: 116px 159px 116px 141px;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
-.action-content{
+.action-content {
   margin: 62.5px 623px 62.5px 0px;
   align-items: center;
   justify-content: center;
 }
 
-.action-title{
+.action-title {
   font-weight: bold;
   font-size: 42px;
   /* eita maybe na dile o colbe */
@@ -131,21 +131,21 @@ nav .logo {
 
 /* productive user styles */
 
-.productive-user{
-  background-color: rgba(77, 71, 255, 0.10);
+.productive-user {
+  background-color: rgba(77, 71, 255, 0.1);
   margin: 116px 159px 116px 141px;
   border-radius: 24px;
   gap: 40px;
 }
 
-.productive-user-title{
+.productive-user-title {
   font-weight: bold;
   font-size: 38px;
   text-align: center;
   padding: 50px 142px 0px;
 }
 
-.pu-cards{
+.pu-cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -155,13 +155,163 @@ nav .logo {
 .pu-card .p1 {
   font-weight: bold;
   font-size: 80px;
-  color: #4E47FF;
+  color: #4e47ff;
   margin-bottom: 0px;
 }
 
-.pu-card .p2{
+.pu-card .p2 {
   font-weight: bold;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.500);
+  color: rgba(0, 0, 0, 0.5);
   margin-top: 0px;
+}
+
+/* Users Say section styles */
+
+.challenge {
+  margin: 137px 150px 0px;
+}
+
+.challenge-header {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  width: 366px;
+  height: 243px;
+  border: none;
+}
+
+.card-star {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.card-title-comment {
+  margin-bottom: 30px;
+}
+
+.card-img-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+/* ready to focus styles */
+.focus {
+  margin: 137px 150px 0px;
+}
+/* newsletter styles */
+/* .newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 93px 150px 0px;
+  padding-top: 71px;
+  padding-bottom: 71px;
+  height: 490px;
+  width: 497px;
+}
+
+.newsletter-title {
+  font-weight: bold;
+  font-size: 97px;
+}
+
+.newsletter-input{
+  height: 70px;
+  width: 497px;
+}
+.newsletter-btn {
+  height: 70px;
+  width: 200px;
+  margin-left: 20px;
+} */
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 93px 150px 0px;
+  padding: 71px 0;
+  height: 490px;
+  width: 1200px;
+}
+.newsletter-title {
+  font-weight: bold;
+  font-size: 97px;
+  color: #000;
+  margin: 0;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.newsletter-label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+.newsletter-input {
+  height: 70px;
+  width: 497px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* footer styles */
+.footer{
+  /* width: 1440px; */
+  height: 428px;
+  background-color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px 0px 150px;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 100px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #8987A1;
+  text-align: center;
+  width: 550px;
+  height: 48px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 48px;
 }
