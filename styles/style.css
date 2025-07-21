@@ -70,10 +70,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0px 150px 80px 150px;
+  padding-top: 20px;
 }
 
 nav .logo {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 34px;
   color: #4e47ff;
 }
@@ -225,7 +226,7 @@ nav .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 93px 150px 0px;
+  margin: 93px 150px 50px;
   padding: 71px 0;
   height: 490px;
   width: 1200px;
@@ -233,7 +234,6 @@ nav .logo {
 .newsletter-title {
   font-weight: bold;
   font-size: 97px;
-  color: #000;
   margin: 0;
 }
 .newsletter-form {
@@ -261,7 +261,7 @@ nav .logo {
   height: 20px;
 }
 
-.newsletter-input[type="textarea"] {
+textarea.newsletter-input {
   height: 100px;
 }
 
@@ -280,7 +280,7 @@ nav .logo {
 }
 
 .footer-logo {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 100px;
   color: #4e47ff;
   margin-bottom: 10px;
